@@ -1,0 +1,64 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#53cbfe">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgClose"
+        android:layout_gravity="right|top"
+        android:background="@android:drawable/ic_menu_close_clear_cancel"
+        android:padding="20dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="518dp"
+        android:layout_gravity="right|bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:text="Welcome to BioImage system!"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="20dp"
+            android:textIsSelectable="true" />
+
+        <Button
+            android:layout_width="151dp"
+            android:layout_height="85dp"
+            android:text="CAMERA"
+            android:id="@+id/button"
+            android:layout_gravity="center"
+            android:textSize="30dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal|bottom"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:id="@+id/button3"
+            android:layout_gravity="left|bottom"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            android:id="@+id/button4"
+            android:layout_gravity="right|bottom"
+            android:textSize="20dp" />
+    </FrameLayout>
+
+</FrameLayout>
